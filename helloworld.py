@@ -18,3 +18,5 @@ completion = openai.ChatCompletion.create(
 
 # prinnt the response
 print("\n"+completion.choices[0].message.content)
+
+print("hello world")
